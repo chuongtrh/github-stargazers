@@ -21,4 +21,8 @@ $ go run main.go https://github.com/chuongtrh/godepviz
 - Github only shows a maximum of 5K followers in tab followers
 - Using HTTP to crawl HTML content and parser to get the number of followers & contributions
 - Rate limit
-  GitHub API rate limit is [60 requests per hour.](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#requests-from-personal-accounts) . That why using google translate to increase more rate limit.
+  GitHub API rate limit is [60 requests per hour] (https://docs.github.com/en/rest/overview/resources-in-the-rest-api#requests-from-personal-accounts). That why using google translate to increase more rate limit.
+
+## [Go package graph](https://godepgraph.vercel.app/?pkg=github.com%2Fchuongtrh%2Fgithub-stargazers)
+
+![https://godepgraph.vercel.app/?pkg=github.com%2Fchuongtrh%2Fgithub-stargazers](./screenshot/02.png)

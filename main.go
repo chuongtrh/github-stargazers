@@ -5,9 +5,7 @@ import (
 	"fmt"
 	"log"
 	"math"
-	"math/rand"
 	"os"
-	"time"
 
 	"github.com/anaskhan96/soup"
 	"github.com/chuongtrh/github-stargazers/stargazers"
@@ -24,8 +22,6 @@ func main() {
 
 	repoStr := args[0]
 	fmt.Println(repoStr)
-
-	rand.Seed(time.Now().Unix())
 
 	soup.Headers = map[string]string{
 		"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
